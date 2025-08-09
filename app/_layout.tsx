@@ -1,11 +1,20 @@
+import { globalStyles } from "@/Styles/global-styles";
+import { useFonts } from "expo-font";
 import { Slot } from "expo-router";
-import { View, Text } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import { View } from "react-native";
 
 const RootLayout = () => {
+  const [fontsLoaded] = useFonts({
+    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
+  });
+  if (!fontsLoaded) {
+    return null;
+  }
   return (
-    <View>
-      <Text>RootLayout</Text>
+    <View style={globalStyles.container}>
       <Slot />
+      <StatusBar style="light" />
     </View>
   );
 };
