@@ -1,11 +1,10 @@
 export const Colors = {
   darkGray: "#1E1E1E",
   lightGray: "#252525",
-  orange: "#FF9500",
 
   textPrimary: "#FFFFFF",
   textSecondary: "#808080",
-  textTertiary: "#E0E0E0",
+  textTertiary: "#252525",
 
   backgroundPrimary: "#1E1E1E",
   backgroundSecondary: "#252525",
