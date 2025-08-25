@@ -29,6 +29,8 @@ Una aplicación de calculadora moderna desarrollada con **React Native** y **Exp
 
 ![preview](calculator-app.webp)
 
+![preview](calculator-app-demo.gift)
+
 La aplicación presenta una interfaz limpia con:
 
 - Pantalla de resultados en la parte superior
